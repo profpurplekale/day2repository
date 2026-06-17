@@ -8,11 +8,11 @@
 # URL VARIABLES
 #
 # site domain, full URL to the production location of your collection
-url: 
+url: https://profpurplekale.github.io 
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: 
+baseurl: /day2repository
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder/collectionbuilder-csv
+source-code: https://github.com/profpurplekale/day2repository
 
 ##########
 # SITE SETTINGS
@@ -23,11 +23,11 @@ title: Japanese Americans in Arizona
 tagline: Oral History Collection 
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: The Japanese Americans in Arizona (JAAZ) Oral History Project is a collaboration with the Japanese American Citizens League (JACL) AZ chapter to document the history of the early Japanese American community in Arizona.
+description: "The Japanese Americans in Arizona (JAAZ) Oral History Project is a collaboration with the Japanese American Citizens League (JACL) AZ chapter to document the history of the early Japanese American community in Arizona.""
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: Japanese American; history; southwest; oral history; Arizona
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: Japanese Americans in Arizona (JAAZ) Oral History Project
+author: Karen J. Leong, Ph.D. 
 
 ##########
 # COLLECTION SETTINGS
@@ -50,11 +50,11 @@ metadata: jaaz-metadata
 #
 # Enter name and link for your organization (replacing the name and links below)
 # These values will be used in attribution and data 
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: "Japanese Americans in Arizona Oral History Project (JAAZ)"
+organization-link:  
 # Add logo image links if you would like them to appear in banner and footer. Delete or leave blank to remove logos.
-organization-logo-banner: https://www.lib.uidaho.edu/collectionbuilder/cdil-black.png
-organization-logo-nav: https://www.lib.uidaho.edu/collectionbuilder/cdil-white.png
+organization-logo-banner:  
+organization-logo-nav:  
 
 ##########
 # ROBOTS EXCLUDE
