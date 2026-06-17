@@ -1,6 +1,6 @@
 # Japanese Americans in Arizona Oral History Project
 
-This collection is based on a collaboration with the Japanese American Citizens League Arizona Chapter to document the history of Japanese Americans in Arizona. The initial focus collected oral histories of Nisei (second generation Japanese Americans) but also includes photographs, documents, and other materials provided by community members for the project. 
+This collection is based on a collaboration with the Japanese American Citizens League Arizona Chapter to document the history of Japanese Americans in Arizona. The project collected oral histories of Nisei (second generation Japanese Americans) and also includes photographs, documents, and other materials provided by community members for the project. 
 
 ----------
 
