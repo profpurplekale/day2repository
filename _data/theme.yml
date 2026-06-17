@@ -9,7 +9,7 @@
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
 featured-image: farmworkers_pic
-featured-image-alt-text: # add alt text if using url for featured-image (objectid will be automatic from metadata)
+featured-image-alt-text: Image of Japanese American workers bent over harvesting strawberry fields in Glendale. Women wear white bonnets, men wear hads. Owner and overseer wear suits.  # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional: add extra padding above collection title for a larger image feature. 
 home-title-y-padding: 10em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
@@ -28,14 +28,14 @@ default-sort-field: # if a value is entered here, it must match one of the field
 ##########
 # ITEM PAGE
 #
-# see _data/metadata-config.csv to define the metadata fields that will display.
+# see _data/config-metadata.csv to define the metadata fields that will display.
 browse-buttons: true # true / false, adds previous/next arrows to items, but increases build time
 
 ##########
 # SUBJECTS PAGE
 #
 subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
+subjects-min: 4 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
@@ -49,7 +49,7 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 # MAP PAGE
 #
 # see _data/map-config.csv for field display options
-auto-center-map: true # have the map auto fit all features into its view
+auto-center-map: false # have the map auto fit all features into its view
 latitude: 46.727485 # to manually center map if not using auto-center-map option
 longitude: -117.014185 # to manually center map if not using auto-center-map option
 zoom-level: 5 # zoom level for map if not using auto-center-map option
@@ -64,14 +64,14 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 #
 # set either year-navigation or year-nav-increment to generate a year nav dropdown
 year-navigation: #"1900;1905;1910;1915;1920" # manually set years to appear in dropdown nav
-year-nav-increment: 5 # set increments to auto gen nav years
+year-nav-increment: 1 # set increments to auto gen nav years
 
 ##########
 # DATA 
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,subject,location,latitude,longitude,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "title,creator,date,description,subject,location,source,identifier,type,format,language,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
 
@@ -105,8 +105,7 @@ navbar-background: bg-black
 # BOOTSWATCH THEMES [optional!]
 # You can replace the standard Bootstrap theme with a Bootswatch (https://github.com/thomaspark/bootswatch) option
 # Choose from: cerulean; cosmo; cyborg; darkly; flatly; journal; litera; lumen; lux; materia; minty; pulse; sandstone; simplex; sketchy; slate; solar; spacelab; superhero; united; yeti 
-bootswatch: cerulean
-
+bootswatch: #leave blank or comment out for plain bootstrap 
 # THEME FONTS [optional!]
 base-font-size: 1.2em
 text-color: "#191919"
