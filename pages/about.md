@@ -17,7 +17,7 @@ padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
-# About this Collection
+# About the JAAZ Oral History Project 
 
  The *Japanese Americans in Arizona (JAAZ) Oral History Project* began in 2003 at Arizona State University when Dr. Karen J. Leong (Women and Gender Studies) and JACL AZ President Ted Namba received an AZ Humanities Programming grant for this project in 2002, with additional support from JACL AZ members. The original committee collecting oral histories and exploring state and city archives for additional information included JACL members Doris Asano, Donna Cheung, Marilyn Tang, and Kathy Inoshita. Members of families who settled in Arizona prior to World War II were initially interviewed. The premise of the project was that JACL AZ members would interview the the Nisei about their family histories coming to Arizona.
 
