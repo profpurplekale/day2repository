@@ -9,7 +9,7 @@
 # featured image is used in home page banner and in meta markup to represent the collection
 # use either an objectid (from an item in this collect), a relative location of an image in this repo, or a full url to an image elsewhere
 featured-image: farmworkers_pic
-featured-image-alt-text: Image of Japanese American workers bent over harvesting strawberry fields in Glendale. Women wear white bonnets, men wear hads. Owner and overseer wear suits.  # add alt text if using url for featured-image (objectid will be automatic from metadata)
+featured-image-alt-text: Image of Japanese American workers bent over harvesting strawberry fields in Glendale. Women wear white bonnets, men wear hats. Owner and overseer wear suits.  # add alt text if using url for featured-image (objectid will be automatic from metadata)
 # optional: add extra padding above collection title for a larger image feature. 
 home-title-y-padding: 10em # the margin from the top your title portion will appear.
 # optional: change position of background image, center, top, bottom
@@ -34,9 +34,9 @@ browse-buttons: true # true / false, adds previous/next arrows to items, but inc
 ##########
 # THEMES PAGE
 #
-themes-fields: themes;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
-themes-min: 4 # min size for theme cloud, too many terms = slow load time!
-themes-stopwords: # set of themes separated by ; that will be removed from display, e.g. boxers;boxing
+theme-fields: theme;creator # set of fields separated by ; to be featured in the cloud (leave blank or comment out to not generate)
+theme-min: 4 # min size for theme cloud, too many terms = slow load time!
+theme-stopwords: # set of themes separated by ; that will be removed from display, e.g. boxers;boxing
 
 ##########
 # LOCATIONS PAGE
@@ -71,9 +71,9 @@ year-nav-increment: 1 # set increments to auto gen nav years
 # 
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-metadata-export-fields: "title,creator,date,description,themes,location,source,identifier,type,format,language,rights,rightsstatement"
+metadata-export-fields: "title,creator,date,description,theme,location,source,identifier,type,format,language,rights,rightsstatement"
 # generate a facets list for given fields, comma delimited
-metadata-facets-fields: "themes,creator,format"
+metadata-facets-fields: "theme,creator,format"
 
 ##########
 # Compound Objects 
